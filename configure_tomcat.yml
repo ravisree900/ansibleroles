@@ -1,0 +1,6 @@
+---
+ - name: install tomcat using roles
+   hosts: all
+   roles: 
+     - tomcat
+...
